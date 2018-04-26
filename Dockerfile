@@ -1,6 +1,4 @@
-FROM php:7-fpm
-
-MAINTAINER Mehrdad Dadkhah <mehrdad@dadkhah.me>
+FROM php:7.1-fpm
 
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
